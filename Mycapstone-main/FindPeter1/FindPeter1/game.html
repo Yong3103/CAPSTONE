@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Peter - Story</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+        <header>
+        <link rel="stylesheet" href="style.css">
+        <h1 class="heading">Find Peter</h1>        <a href="index.html">Home</a>
+        <br>
+        <a href="aboutme.html">About me</a>
+    </header>
+
+    <main>
+        <p>Follow the clues and bring Peter home.</p>
+
+        <section>
+            <h2 id="scene-title"></h2>
+            <p id="character-name"></p>
+
+            <figure>
+                <img
+                    id="scene-image"
+                    src="images/house-minecraft.png"
+                    alt="The house"
+                    width="600"
+                >
+                <figcaption id="scene-caption"></figcaption>
+            </figure>
+
+            <p id="scene-text"></p>
+
+            <h3>Your choices</h3>
+            <div id="choices-container"></div>
+
+            <p id="message-display" aria-live="polite"></p>
+        </section>
+
+        <section>
+            <div class="card">
+                <h3>Energy</h3>
+                <p id="health-display">100</p>
+            </div>
+
+            <div class="card">
+                <h3>Inventory</h3>
+                <p id="inventory-display">Empty</p>
+            </div>
+
+            <h3>Clues</h3>
+            <ul id="clues-display"></ul>
+        </section>
+    </main>
+</body>
+</html>
