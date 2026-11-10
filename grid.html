@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Color Are You?</title>
+
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #222;
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .card {
+            padding: 16px;
+            border: 3px solid;
+        }
+
+        .card img {
+            width: 140px;
+            height: 140px;
+            max-width: 100%;
+            object-fit: cover;
+        }
+
+        .red {
+            background-color: #ffe4e4;
+            border-color: #b33b3b;
+        }
+
+        .blue {
+            background-color: #e4efff;
+            border-color: #3467a3;
+        }
+
+        .green {
+            background-color: #e6f4e3;
+            border-color: #3f7746;
+        }
+
+        .yellow {
+            background-color: #fff4cf;
+            border-color: #9c7213;
+        }
+
+        @media (max-width: 480px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Which Color Are You?</h1>
+    <p>Pick the color that matches your personality.</p>
+
+    <main class="grid">
+        <div class="card red">
+            <img src="https://img.magnific.com/premium-photo/red-paper-texture-background_469558-22627.jpg?semt=ais_hybrid&w=740&q=80;w=400"
+                 alt="Red">
+            <h2>Red</h2>
+            <p>You are excited to try new things.</p>
+        </div>
+
+        <div class="card blue">
+            <img src="https://preview.redd.it/what-shade-do-you-mean-when-you-say-blue-usually-v0-acowaq1qo9wc1.png?width=626&format=png&auto=webp&s=92bc9c3051ad4ad581b509a4f195db3e6f906731"
+                 alt="Blue ">
+            <h2>Blue</h2>
+            <p>You stay calm and listen when your friends need you.</p>
+        </div>
+
+        <div class="card green">
+            <img src="https://www.maycocolors.com/wp-content/uploads/2020/09/ss-288.jpg"
+                 alt="Green">
+            <h2>Green</h2>
+            <p>You love spending time outdoors.</p>
+        </div>
+
+        <div class="card yellow">
+            <img src="https://colorcodes.imgix.net/4HWXxehDkT1s1Ak1vGt9ab/4c4960f7ecf7d9b80936675e79ed045a/yellow-color.png"
+                 alt="Yellow">
+            <h2>Yellow</h2>
+            <p>You are joy, happiness, optimism, and warmth.</p>
+        </div>
+    </main>
+</body>
+</html>
