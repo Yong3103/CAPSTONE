@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Club</title>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@700&display=swap");
+
+        body {
+            margin: 0;
+            background-color: #faf8ff;
+            color: #242238;
+            font-family: "Noto Sans", Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #eee8fc;
+            padding: 16px 24px;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        a, h1, h2 {
+            color: #5536a2;
+        }
+
+        h1, h2 {
+            font-family: "Noto Serif", Georgia, serif;
+        }
+
+        h1 {
+            font-size: 36px;
+            line-height: 1.2;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        section {
+            margin-bottom: 32px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #5536a2;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ded5ed;
+            border-radius: 8px;
+            padding: 16px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        @media (max-width: 650px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+    <main>
+            <h1>Anime Club</h1>
+            <p>Anime Club is a relaxed place to spend lunch. We chat, pick an anime, and watch it together.</p>
+
+        
+            <h2>What We Do</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Pick a Show</h3>
+                    <p>We choose what to watch together during lunch.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Chat</h3>
+                    <p>Talk about your favorite anime or just relax with the group.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Card Games</h3>
+                    <p>We’re planning to add card games to some meetings.</p>
+                </article>
+            </div>
+
+       
+            <h2>Come By at Lunch</h2>
+            <p><strong>When:</strong> Every school day at lunch</p>
+            <p><strong>Where:</strong> Room 225 Mr.homich's class </p>
+            <p>Check the Anime Club posters around school for the latest meeting information.</p>
+    </main>
+</body>
+</html>
